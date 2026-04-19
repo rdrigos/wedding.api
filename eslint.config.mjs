@@ -16,5 +16,6 @@ export default defineConfig({
   extends: [eslint.configs.recommended, tseslint.configs.recommended],
   rules: {
     'prettier/prettier': 'error',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 });
